@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "irt2"
+version = "0.1.0"
+description = ""
+authors = ["shuki <shukix124361@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyomo = "^6.4.4"
+pandas = "^1.5.2"
+numpy = "^1.24.1"
+tqdm = "^4.64.1"
+seaborn = "^0.12.2"
+japanize-matplotlib = "^1.1.3"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+flake8 = "^6.0.0"
+mypy = "^0.991"
+isort = "^5.11.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
